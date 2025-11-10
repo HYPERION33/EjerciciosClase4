@@ -31,7 +31,7 @@ Algoritmo Ejercicio4Clase4
 			FinMientras
 		Escribir "Ingrese precio del producto..."
 		Leer precio[i]
-			Mientras precio[i] < 0 Hacer //no permite ingresar precios negativos
+			Mientras precio[i] <= 0 Hacer //no permite ingresar precios negativos
 				Escribir "Dato no valido, Reingrese precio..."
 				Leer precio[i]
 			FinMientras
